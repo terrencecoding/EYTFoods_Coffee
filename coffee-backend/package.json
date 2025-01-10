@@ -1,0 +1,39 @@
+{
+  "name": "EYTFoods Server",
+  "version": "1.0.0",
+  "description": "Backend server for EYTFoods.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "y",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/terrencecoding/EYTFoods_Coffee.git"
+  },
+  "keywords": [
+    "EYTFoods",
+    "Coffee",
+    "Ecommerce"
+  ],
+  "author": "Terrence Tran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/terrencecoding/EYTFoods_Coffee/issues"
+  },
+  "homepage": "https://github.com/terrencecoding/EYTFoods_Coffee#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
