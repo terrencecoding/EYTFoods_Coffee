@@ -1,8 +1,16 @@
-# React + Vite
+# EYT Foods Coffee
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive front-end built with **React + Vite**. Focus areas: clean components, Bootstrap-style layout, and mobile-first UX.
 
-Currently, two official plugins are available:
+## Tech
+- React (JSX), Vite build
+- HTML5, CSS3 (grid/flex), Bootstrap-style utilities
+- Git/GitHub for version control
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Run it
+```bash
+npm install
+npm run dev      # start locally
+npm run build    # production build
+npm run preview  # preview the build
+
